@@ -18,3 +18,4 @@
                     <a href="cerrar.php" class="boton boton-rojo">{Cerrar sesión}</a>
                 </div>
              </aside>
+</div>
