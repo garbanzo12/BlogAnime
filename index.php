@@ -21,6 +21,8 @@
                     <a href="mis-datos.php" class="boton boton-naranja">{Mis datos}</a>
                     <a href="cerrar.php" class="boton boton-rojo">{Cerrar sesión}</a>
                 </div>
+
+
                 
                 <!-- Aqui hiba el login -->
                 
@@ -39,67 +41,8 @@
 
                 </div>
             </aside>
-            
-            <!-- CAJA PRINCIPAL -->
-            <div id="principal">
-                <h1>Últimas entradas</h1>
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <div id="ver-todas">
-                    <a href="entradas.php">Ver todas las entradas</a>
-                </div>
-            </div> <!--fin principal-->
-            
-        </div> <!-- fin contenedor -->
-        
+        <!-- Main -->
+        <?php include 'assets/includes/main.php';?>
         <!-- PIE DE PÁGINA -->
         <footer id="pie">
             <p>Desarrollado por {Nombre Aprendiz} &copy; {Año actual}</p>
