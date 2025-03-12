@@ -6,15 +6,9 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     </head>
     <body>
-        <!-- CABECERA -->
-        <header id="cabecera">
-            <!-- LOGO -->
-            <div id="logo">
-                <a href="index.php">
-                    Blog de {Temas}
-                </a>
-            </div>
-            
+        
+        <?php include 'assets/includes/cabecera.php';?>
+
             <!-- MENU -->
             <nav id="menu">
                 <ul>
