@@ -1,5 +1,6 @@
 <?php include 'assets/includes/navbar.php';?>
 <?php include 'assets/includes/login.php';?>
+<?php include 'assets/includes/registro.php';?>
         
         <div id="contenedor">
             <!-- BARRA LATERAL -->
@@ -21,22 +22,7 @@
                     <a href="cerrar.php" class="boton boton-rojo">{Cerrar sesión}</a>
                 </div>
                 
-                <div id="login" class="bloque">
-                    <h3>Inicia Sesión</h3>
-                    <div class="alerta alerta-error">
-                        {Usuario no existe}
-                    </div>
-                    
-                    <form action="login.php" method="POST"> 
-                        <label for="email">Email</label>
-                        <input type="email" name="email" />
-                        
-                        <label for="password">Contraseña</label>
-                        <input type="password" name="password" />
-                        
-                        <input type="submit" value="Entrar" />
-                    </form>
-                </div>
+                <!-- Aqui hiba el login -->
                 
                 <div id="register" class="bloque">
                     <h3>Registrarse</h3>
@@ -49,21 +35,8 @@
                         {Error en algun dato}
                     </div>
                     
-                    <form action="registro.php" method="POST"> 
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" />
-                        
-                        <label for="apellidos">Apellidos</label>
-                        <input type="text" name="apellidos" />
-                        
-                        <label for="email">Email</label>
-                        <input type="email" name="email" />
-                        
-                        <label for="password">Contraseña</label>
-                        <input type="password" name="password" />
-                        
-                        <input type="submit" name="submit" value="Registrar" />
-                    </form>
+                    <!-- Aqui hiba el register -->
+
                 </div>
             </aside>
             
