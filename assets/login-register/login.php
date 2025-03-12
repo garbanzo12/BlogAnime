@@ -1,3 +1,3 @@
 <?php
-    include '../assets/includes/conexion.php';
+    include '../includes/conexion.php';
 ?>
