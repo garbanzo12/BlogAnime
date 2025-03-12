@@ -1,6 +1,7 @@
 <?php include 'assets/includes/navbar.php';?>
-<?php include 'assets/includes/login.php';?>
-<?php include 'assets/includes/registro.php';?>
+
+
+
         
         <div id="contenedor">
             <!-- BARRA LATERAL -->
@@ -23,8 +24,8 @@
                 </div>
 
 
-                
                 <!-- Aqui hiba el login -->
+                <?php include 'assets/includes/login.php';?>
                 
                 <div id="register" class="bloque">
                     <h3>Registrarse</h3>
@@ -38,7 +39,7 @@
                     </div>
                     
                     <!-- Aqui hiba el register -->
-
+                    <?php include 'assets/includes/registro.php';?>
                 </div>
             </aside>
         <!-- Main -->
