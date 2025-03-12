@@ -1,24 +1,7 @@
 <?php include 'assets/includes/navbar.php';?>
+<?php include 'assets/includes/menu.php';?>
         
-        <div id="contenedor">
-            <!-- BARRA LATERAL -->
-            <aside id="sidebar">
-                <div id="buscador" class="bloque">
-                    <h3>Buscar</h3>
-                    <form action="buscar.php" method="POST"> 
-                        <input type="text" name="busqueda" />
-                        <input type="submit" value="Buscar" />
-                    </form>
-                </div>
-                
-                <div id="usuario-logueado" class="bloque">
-                    <h3>Bienvenido, {Nombre Usuario}</h3>
-                    <!--botones-->
-                    <a href="crear-entradas.php" class="boton boton-verde">{Crear entradas}</a>
-                    <a href="crear-categoria.php" class="boton">{Crear categoria}</a>
-                    <a href="mis-datos.php" class="boton boton-naranja">{Mis datos}</a>
-                    <a href="cerrar.php" class="boton boton-rojo">{Cerrar sesión}</a>
-                </div>
+       
                 
                 <div id="login" class="bloque">
                     <h3>Inicia Sesión</h3>
@@ -65,67 +48,8 @@
                     </form>
                 </div>
             </aside>
-            
-            <!-- CAJA PRINCIPAL -->
-            <div id="principal">
-                <h1>Últimas entradas</h1>
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <article class="entrada">
-                    <a href="entrada.php?id=<?=$entrada['id']?>">
-                        <h2>{Titulo Entrada}</h2>
-                        <span class="fecha">{Categoria} | {Fecha de publicación}</span>
-                        <p>
-                            {Descripcion de entrada}
-                        </p>
-                    </a>
-                </article>
-                
-                <div id="ver-todas">
-                    <a href="entradas.php">Ver todas las entradas</a>
-                </div>
-            </div> <!--fin principal-->
-            
-        </div> <!-- fin contenedor -->
-        
+        <!-- Main -->
+        <?php include 'assets/includes/main.php';?>
         <!-- PIE DE PÁGINA -->
         <footer id="pie">
             <p>Desarrollado por {Nombre Aprendiz} &copy; {Año actual}</p>
