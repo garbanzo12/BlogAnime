@@ -1,4 +1,5 @@
 <?php include 'assets/includes/navbar.php';?>
+<?php include 'assets/includes/login.php';?>
         
         <div id="contenedor">
             <!-- BARRA LATERAL -->
