@@ -2,10 +2,8 @@
 <html lang="es">
     <head>
         <meta charset="utf-8" />
-        <title> Esta es una prubea del tittle Blog de {Temas}</title>
+        <title>Blog de {Temas}</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    
-        
     </head>
     <body>
         <!-- CABECERA -->
@@ -13,7 +11,7 @@
             <!-- LOGO -->
             <div id="logo">
                 <a href="index.php">
-                    Prueba DPG Commit Blog de {Temas}
+                    Blog de {Temas}
                 </a>
             </div>
             
