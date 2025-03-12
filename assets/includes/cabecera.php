@@ -1,5 +1,5 @@
 <!-- CABECERA -->
-<header id="cabecera">
+        <header id="cabecera">
             <!-- LOGO -->
             <div id="logo">
                 <a href="index.php">
