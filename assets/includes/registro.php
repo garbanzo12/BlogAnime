@@ -9,7 +9,7 @@
         {Error en algun dato}
     </div>
 
-    <form action="registro.php" method="POST">
+    <form action="../login-register/register.php" method="POST">
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" />
 
