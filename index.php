@@ -1,6 +1,6 @@
 <?php include 'assets/includes/navbar.php';?>
 <?php include 'assets/includes/menu.php';?>
-        
+
        
                 
                 <div id="login" class="bloque">
